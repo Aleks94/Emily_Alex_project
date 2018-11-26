@@ -2,16 +2,134 @@
 <html>
 <head>
   <link rel=“stylesheet” href=“css/styles.css”>
+  <link rel="stylesheet"
   <script scr="js/jguery-3.3.1.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Londrina+Shadow|Vast+Shadow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
 </head>
+
+<style>
+
+header {
+  text-align: center;
+      background:
+      background-size: cover;
+      color: white;
+}
+body {
+  font-family: 'Antic Slab', serif;
+  font-weight:bold;
+  margin: 0 auto;
+  max-width: 600px;
+  background:url(https://i.imgur.com/8kydt4I.jpg);
+ }
+
+div {
+  height: 400px;
+  background-size: cover;
+  position:relative;
+  margin: 50px 0 0 0;
+  border-radius: 16px;
+}
+h1 {
+  font-family: 'Bevan', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  margin: 60px 0 0 0;
+}
+h2 {
+  font-family: 'Allura', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin: 0px 0 70px 0;
+}
+
+ul {
+      padding: 10px;
+      background: white;
+      margin-left: -100px;
+      margin-right: -100px;
+      color: white;
+    }
+    li {
+      display: inline;
+      padding: 50px 10px 50px 10px;
+      color: white;
+    }
+p {
+  color: rgba(255,255,255,1);
+  height: 30px;
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("https://i.imgur.com/AUKDpph.jpg");
+}
+.second{
+  background-image: url("https://i.imgur.com/Ark7rnv.jpg");
+}
+.dessert{
+  background-image: url("https://i.imgur.com/DY40re1.jpg");
+}
+.price {
+  float: right;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+</style>
   <body>
     <header>
-<a href="https://imgur.com/8kydt4I"><img src="https://i.imgur.com/8kydt4I.jpg" title="source: imgur.com" /></a>
       <h1>Emily & Alex</h1>
       <h2>your London guide from around the World</h2>
       <input type="email" placeholder="Get in touch">
 <input type="submit">
+
 
       <ul>
         <li><a href="#">About Us</a></li>
@@ -36,10 +154,19 @@
 </div>
 
 <div class="dessert">
-  <p>our favourite: <span class="price">avarage price £8.00</span><br />
+  <p>our favourite: Cronut <span class="price">avarage price £4.00</span><br />
   <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
     <button>like</button>
 </div>
+
+<div id="social buttons">
+  <button class= "btn btn-lg btn-twitter">Twitter</button>
+  <button class= "btn btn-lg btn-facebook">Fecebook</button>
+  <button class= "btn btn-lg btn-pintrest">Pintrest</button>
+</div>
+
+< script scr="https://code.jqery.com/jquery.js"></script>
+< script type=text/javascript" scr="dist/js/bootstrap.js"></script>
 
 
 </body>
