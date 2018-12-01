@@ -1,0 +1,130 @@
+
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('images/camden.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1 {
+  font-family: 'Bevan', cursive;
+  color: Pink;
+  margin-bottom: 1em;
+}
+
+
+blockquote {
+  border-left: 0;
+}
+
+#mission {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding-bottom: 40px;
+}
+.jumbotron .form-group {
+  line-height: 1em;
+}
+
+.jumbotron label {
+  color: white;
+}
+.jumbotron img {
+  margin-top: 50px;
+}
+h2 {
+  margin-bottom: 1.5em;
+}
+
+.navbar-inverse {
+  background-color: rgba(32, 35, 41,0.8);
+}
+
+.btn-success {
+  background-color: pink;
+  border-color: pink;
+}
+
+.emily {
+  width: 400px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+
+.alex {
+  width: 300px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+
+.form-inline input[name='email'] {
+  width: 80%;
+}
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+
+#contact-form {
+  ?
+}
+
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.contact-form {
+  font-size: 30px;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  color: #fff;
+  font-size:18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px:normal;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: orange;
+  cursor: pointer;
+}
