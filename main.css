@@ -15,6 +15,9 @@
   font-size: 40px;
 }
 
+.lead {
+  color: Pink;
+}
 
 blockquote {
   border-left: 0;

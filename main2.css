@@ -35,6 +35,7 @@ blockquote {
 .jumbotron img {
   margin-top: 50px;
 }
+
 h2 {
   margin-bottom: 1.5em;
 }
@@ -68,6 +69,10 @@ h2 {
   width: 400px;
   border: 7px solid white;
   border-radius: 20px;
+}
+
+.londonfood {
+
 }
 
 .form-inline input[name='email'] {
